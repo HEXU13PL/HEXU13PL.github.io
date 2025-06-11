@@ -38,7 +38,7 @@
   --members-width:  240px;
   --background-shading:  100%;
   --background-overlay:  rgba(0, 0, 0, 1);
-  --background-image:  url(https://files.catbox.moe/y9xe5i.jpg);
+  --background-image:  url('https://files.catbox.moe/y9xe5i.jpg)';
   --background-position:  center;
   --background-size:  cover;
   --background-repeat:  no-repeat;
