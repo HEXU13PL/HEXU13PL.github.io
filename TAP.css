@@ -32,7 +32,7 @@
   --main-font:  gg sans,  Helvetica Neue,  Helvetica,  Arial,  sans-serif;
   --code-font:  Consolas,  Liberation Mono,  Menlo,  Courier,  monospace;
   --font-display:  var(--main-font);
-  --text-normal:  rgb(220,  221,  225);
+  --text-normal:  rgb(220,  221,  22);
   --text-muted:  rgb(114,  118,  125);
   --channels-width:  220px;
   --members-width:  240px;
