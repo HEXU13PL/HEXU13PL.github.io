@@ -22,3 +22,7 @@ nav.guilds_c48ade {
 }
 
 /** gówno od profilu  */
+
+.chatGradientBase__36d07 {
+    display: none;
+}
