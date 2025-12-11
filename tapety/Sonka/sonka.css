@@ -141,3 +141,45 @@
 .chatGradientBase__36d07 {
     display: none;
 }
+
+/* --Improved User Area-- */
+/* Make both the username and status message visible at all times. */
+.container__37e49 .hovered__0263c, .hoverRoll__0263c.forceHover__0263c:not(.disabled__0263c) .default__0263c{
+  opacity: 1!important;
+  transform: none;
+}
+/* Adds an @ to the username. Discord, for the love of god, just add this yourself already. */
+.container__37e49 .hovered__0263c::before{
+  content: "@";
+}
+/* Move the custom Status message down so that it doesnt overlap with the Username */
+.default__0263c{
+  margin-top: 15px;
+  opacity: 1!important;
+  transform: none!important;
+}
+/* Credit to @thecommieaxolotl for this code. */
+/* --Hides User Buttons until Hover-- */
+/* Hide mute and deafen buttons */
+.panels__5e434 > .container__37e49 .buttons__37e49 > :not(:nth-last-child(2)) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.3s ease-in-out;
+}
+/* Reveal mute and Deafen buttons when settings button is hovered */
+.panels__5e434 > .container__37e49 .buttons__37e49:hover > :not(:nth-last-child(2)) {
+  opacity: 100% !important;
+  width: 32px;
+}
+/* Resize and move the profile button to take up all the space it can to look clean. */
+.avatarWrapper__37e49{
+  transition: all 0.3s ease-in-out;
+  width: 100%!important;
+  margin-left: -10px;
+  height: 53px;
+  border-radius: 0!important;
+}
+/* Move the avatar back to the right a bit to look clean. */
+.avatarWrapper__37e49 .avatar__37e49{
+  margin-left: 10px;
+}
