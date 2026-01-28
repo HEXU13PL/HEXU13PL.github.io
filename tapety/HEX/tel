@@ -1,6 +1,6 @@
 {
-    "name": "asdsad (V1 Transparent)",
-    "description": "Fixed background for Revenge. Version 1: Full Transparency.",
+    "name": "ClearVision FINAL (CDN)",
+    "description": "Final attempt with Discord CDN link. Ensure Transparency is ON in settings.",
     "authors": [{"name": "Taki_Shiwa", "id": "466968658997149706"}],
     "semanticColors": {
         "BACKGROUND_PRIMARY": ["transparent", "transparent", "transparent"],
@@ -9,10 +9,13 @@
         "BACKGROUND_TERTIARY": ["transparent", "transparent", "transparent"],
         "BACKGROUND_MOBILE_PRIMARY": ["transparent", "transparent", "transparent"],
         "BACKGROUND_MOBILE_SECONDARY": ["transparent", "transparent", "transparent"],
-        "CHAT_BACKGROUND": ["transparent", "transparent", "transparent"]
+        "BACKGROUND_FLOATING": ["rgba(0,0,0,0.6)", "rgba(0,0,0,0.6)", "rgba(0,0,0,0.6)"],
+        "CHAT_BACKGROUND": ["transparent", "transparent", "transparent"],
+        "BG_BASE_PRIMARY": ["transparent", "transparent", "transparent"],
+        "BG_SURFACE_OVERLAY_TMP": ["transparent", "transparent", "transparent"]
     },
     "background": {
-        "url": "https://raw.githubusercontent.com/jamlotrasoiaf/ThemesCorrected/refs/heads/main/ClearVision/Vendetta/dark.jpg",
+        "url": "https://cdn.discordapp.com/attachments/1121000274593591399/1142038067209850980/0CI9G4RK.jpg",
         "alpha": 1,
         "blur": 0
     },
