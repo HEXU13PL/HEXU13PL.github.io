@@ -1,18 +1,13 @@
 {
-    "name": "ddd",
-    "description": "Final atasdsadsad.",
+    "name": "ClearVision FINAL (Alfa)",
+    "description": "Final attempt using 0.01 alpha for backgrounds. Fixes some Revenge versions.",
     "authors": [{"name": "Taki_Shiwa", "id": "466968658997149706"}],
     "semanticColors": {
-        "BACKGROUND_PRIMARY": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_SECONDARY": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_SECONDARY_ALT": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_TERTIARY": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_MOBILE_PRIMARY": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_MOBILE_SECONDARY": ["transparent", "transparent", "transparent"],
-        "BACKGROUND_FLOATING": ["rgba(0,0,0,0.6)", "rgba(0,0,0,0.6)", "rgba(0,0,0,0.6)"],
-        "CHAT_BACKGROUND": ["transparent", "transparent", "transparent"],
-        "BG_BASE_PRIMARY": ["transparent", "transparent", "transparent"],
-        "BG_SURFACE_OVERLAY_TMP": ["transparent", "transparent", "transparent"]
+        "BACKGROUND_PRIMARY": ["#00000001", "#00000001", "#00000001"],
+        "BACKGROUND_SECONDARY": ["#00000001", "#00000001", "#00000001"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#00000001", "#00000001", "#00000001"],
+        "BACKGROUND_MOBILE_SECONDARY": ["#00000001", "#00000001", "#00000001"],
+        "CHAT_BACKGROUND": ["#00000001", "#00000001", "#00000001"]
     },
     "background": {
         "url": "https://files.catbox.moe/kghgdu.jpg",
